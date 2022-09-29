@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="137504" started-at="2022-09-24T17:43:50Z" finished-at="2022-09-24T17:46:08Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="65882" started-at="2022-09-24T17:43:50Z" finished-at="2022-09-24T17:44:56Z">
+      <class name="Pack6.TestOfOrangeHrm">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Pack6.TestOfOrangeHrm@4b952a2d]" name="openBrowser" is-config="true" duration-ms="8028" started-at="2022-09-24T23:14:32Z" finished-at="2022-09-24T23:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyHrAdminIsDisplayed()[pri:1, instance:Pack6.TestOfOrangeHrm@4b952a2d]" name="verifyHrAdminIsDisplayed" duration-ms="12810" started-at="2022-09-24T23:14:40Z" finished-at="2022-09-24T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHrAdminIsDisplayed -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Pack6.TestOfOrangeHrm@4b952a2d]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-09-24T23:14:53Z" finished-at="2022-09-24T23:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHrAdminIsDisplayed status=SUCCESS method=TestOfOrangeHrm.verifyHrAdminIsDisplayed()[pri:1, instance:Pack6.TestOfOrangeHrm@4b952a2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="verifyCaseStudyIsDisplayed()[pri:2, instance:Pack6.TestOfOrangeHrm@4b952a2d]" name="verifyCaseStudyIsDisplayed" duration-ms="384" started-at="2022-09-24T23:14:53Z" finished-at="2022-09-24T23:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCaseStudyIsDisplayed -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Pack6.TestOfOrangeHrm@4b952a2d]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-09-24T23:14:54Z" finished-at="2022-09-24T23:14:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCaseStudyIsDisplayed status=SUCCESS method=TestOfOrangeHrm.verifyCaseStudyIsDisplayed()[pri:2, instance:Pack6.TestOfOrangeHrm@4b952a2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="clearPOMobjects()[pri:0, instance:Pack6.TestOfOrangeHrm@4b952a2d]" name="clearPOMobjects" is-config="true" duration-ms="3" started-at="2022-09-24T23:14:54Z" finished-at="2022-09-24T23:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobjects -->
+      </class> <!-- Pack6.TestOfOrangeHrm -->
+      <class name="Pack6.LoginOrange">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:Pack6.LoginOrange@3159c4b8]" name="beforeTest" is-config="true" duration-ms="2911" started-at="2022-09-24T23:13:50Z" finished-at="2022-09-24T23:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:Pack6.TestOfOrangeHrm@4b952a2d]" name="beforeTest" is-config="true" duration-ms="1828" started-at="2022-09-24T23:13:53Z" finished-at="2022-09-24T23:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:Pack6.TestTryItYourself@73846619]" name="beforeTest" is-config="true" duration-ms="1889" started-at="2022-09-24T23:13:55Z" finished-at="2022-09-24T23:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createPOMobject()[pri:0, instance:Pack6.LoginOrange@3159c4b8]" name="createPOMobject" is-config="true" duration-ms="37" started-at="2022-09-24T23:13:57Z" finished-at="2022-09-24T23:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobject -->
+        <test-method status="PASS" signature="loginInOrange()[pri:0, instance:Pack6.LoginOrange@3159c4b8]" name="loginInOrange" is-config="true" duration-ms="6771" started-at="2022-09-24T23:13:57Z" finished-at="2022-09-24T23:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInOrange -->
+        <test-method status="PASS" signature="verifyUrlTitle()[pri:0, instance:Pack6.LoginOrange@3159c4b8]" name="verifyUrlTitle" duration-ms="3467" started-at="2022-09-24T23:14:04Z" finished-at="2022-09-24T23:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlTitle -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Pack6.LoginOrange@3159c4b8]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-09-24T23:14:07Z" finished-at="2022-09-24T23:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUrlTitle status=SUCCESS method=LoginOrange.verifyUrlTitle()[pri:0, instance:Pack6.LoginOrange@3159c4b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="clearPOMobject()[pri:0, instance:Pack6.LoginOrange@3159c4b8]" name="clearPOMobject" is-config="true" duration-ms="0" started-at="2022-09-24T23:14:07Z" finished-at="2022-09-24T23:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobject -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pack6.LoginOrange@3159c4b8]" name="closeBrowser" is-config="true" duration-ms="157" started-at="2022-09-24T23:14:54Z" finished-at="2022-09-24T23:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pack6.TestOfOrangeHrm@4b952a2d]" name="closeBrowser" is-config="true" duration-ms="1132" started-at="2022-09-24T23:14:54Z" finished-at="2022-09-24T23:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Pack6.TestTryItYourself@73846619]" name="afterTest" is-config="true" duration-ms="1071" started-at="2022-09-24T23:14:55Z" finished-at="2022-09-24T23:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Pack6.LoginOrange -->
+      <class name="Pack6.TestTryItYourself">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Pack6.TestTryItYourself@73846619]" name="openBrowser" is-config="true" duration-ms="7933" started-at="2022-09-24T23:14:07Z" finished-at="2022-09-24T23:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="verifytryityourself()[pri:0, instance:Pack6.TestTryItYourself@73846619]" name="verifytryityourself" duration-ms="15202" started-at="2022-09-24T23:14:15Z" finished-at="2022-09-24T23:14:30Z">
+          <exception class="org.apache.poi.EmptyFileException">
+            <message>
+              <![CDATA[The supplied file was empty (zero bytes long)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:193)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:163)
+	at Utils.Utilities.getDataFromExcelSheet(Utilities.java:52)
+	at Pack6.TestTryItYourself.verifytryityourself(TestTryItYourself.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.EmptyFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytryityourself -->
+        <test-method status="PASS" signature="goBackward(org.testng.ITestResult)[pri:0, instance:Pack6.TestTryItYourself@73846619]" name="goBackward" is-config="true" duration-ms="2186" started-at="2022-09-24T23:14:30Z" finished-at="2022-09-24T23:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytryityourself status=FAILURE method=TestTryItYourself.verifytryityourself()[pri:0, instance:Pack6.TestTryItYourself@73846619] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackward -->
+        <test-method status="PASS" signature="clearPOMobjects()[pri:0, instance:Pack6.TestTryItYourself@73846619]" name="clearPOMobjects" is-config="true" duration-ms="0" started-at="2022-09-24T23:14:32Z" finished-at="2022-09-24T23:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobjects -->
+      </class> <!-- Pack6.TestTryItYourself -->
+    </test> <!-- Chrome -->
+    <test name="Firefox" duration-ms="71597" started-at="2022-09-24T17:44:56Z" finished-at="2022-09-24T17:46:08Z">
+      <class name="Pack6.TestOfOrangeHrm">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="openBrowser" is-config="true" duration-ms="6941" started-at="2022-09-24T23:15:48Z" finished-at="2022-09-24T23:15:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="verifyHrAdminIsDisplayed()[pri:1, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="verifyHrAdminIsDisplayed" duration-ms="6973" started-at="2022-09-24T23:15:55Z" finished-at="2022-09-24T23:16:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	is not displayed expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Pack6.TestOfOrangeHrm.verifyHrAdminIsDisplayed(TestOfOrangeHrm.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHrAdminIsDisplayed -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="screenshot" is-config="true" duration-ms="310" started-at="2022-09-24T23:16:02Z" finished-at="2022-09-24T23:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHrAdminIsDisplayed status=FAILURE method=TestOfOrangeHrm.verifyHrAdminIsDisplayed()[pri:1, instance:Pack6.TestOfOrangeHrm@78c03f1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="verifyCaseStudyIsDisplayed()[pri:2, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="verifyCaseStudyIsDisplayed" duration-ms="300" started-at="2022-09-24T23:16:02Z" finished-at="2022-09-24T23:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCaseStudyIsDisplayed -->
+        <test-method status="PASS" signature="clearPOMobjects()[pri:0, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="clearPOMobjects" is-config="true" duration-ms="4" started-at="2022-09-24T23:16:03Z" finished-at="2022-09-24T23:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobjects -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-09-24T23:16:03Z" finished-at="2022-09-24T23:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCaseStudyIsDisplayed status=SUCCESS method=TestOfOrangeHrm.verifyCaseStudyIsDisplayed()[pri:2, instance:Pack6.TestOfOrangeHrm@78c03f1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- Pack6.TestOfOrangeHrm -->
+      <class name="Pack6.LoginOrange">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Pack6.LoginOrange@5ec0a365]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2022-09-24T23:13:50Z" finished-at="2022-09-24T23:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2022-09-24T23:13:50Z" finished-at="2022-09-24T23:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Pack6.TestTryItYourself@4fe3c938]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2022-09-24T23:13:50Z" finished-at="2022-09-24T23:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:Pack6.LoginOrange@5ec0a365]" name="beforeTest" is-config="true" duration-ms="6397" started-at="2022-09-24T23:14:56Z" finished-at="2022-09-24T23:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="beforeTest" is-config="true" duration-ms="7478" started-at="2022-09-24T23:15:02Z" finished-at="2022-09-24T23:15:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:Pack6.TestTryItYourself@4fe3c938]" name="beforeTest" is-config="true" duration-ms="7589" started-at="2022-09-24T23:15:10Z" finished-at="2022-09-24T23:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createPOMobject()[pri:0, instance:Pack6.LoginOrange@5ec0a365]" name="createPOMobject" is-config="true" duration-ms="0" started-at="2022-09-24T23:15:17Z" finished-at="2022-09-24T23:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobject -->
+        <test-method status="PASS" signature="loginInOrange()[pri:0, instance:Pack6.LoginOrange@5ec0a365]" name="loginInOrange" is-config="true" duration-ms="9001" started-at="2022-09-24T23:15:17Z" finished-at="2022-09-24T23:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInOrange -->
+        <test-method status="PASS" signature="verifyUrlTitle()[pri:0, instance:Pack6.LoginOrange@5ec0a365]" name="verifyUrlTitle" duration-ms="25" started-at="2022-09-24T23:15:26Z" finished-at="2022-09-24T23:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlTitle -->
+        <test-method status="PASS" signature="clearPOMobject()[pri:0, instance:Pack6.LoginOrange@5ec0a365]" name="clearPOMobject" is-config="true" duration-ms="0" started-at="2022-09-24T23:15:27Z" finished-at="2022-09-24T23:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobject -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Pack6.LoginOrange@5ec0a365]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-09-24T23:15:27Z" finished-at="2022-09-24T23:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUrlTitle status=SUCCESS method=LoginOrange.verifyUrlTitle()[pri:0, instance:Pack6.LoginOrange@5ec0a365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pack6.LoginOrange@5ec0a365]" name="closeBrowser" is-config="true" duration-ms="1967" started-at="2022-09-24T23:16:03Z" finished-at="2022-09-24T23:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="closeBrowser" is-config="true" duration-ms="1644" started-at="2022-09-24T23:16:05Z" finished-at="2022-09-24T23:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Pack6.TestTryItYourself@4fe3c938]" name="afterTest" is-config="true" duration-ms="1233" started-at="2022-09-24T23:16:06Z" finished-at="2022-09-24T23:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Pack6.LoginOrange@5ec0a365]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-09-24T23:16:08Z" finished-at="2022-09-24T23:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Pack6.TestOfOrangeHrm@78c03f1f]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-09-24T23:16:08Z" finished-at="2022-09-24T23:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Pack6.TestTryItYourself@4fe3c938]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-09-24T23:16:08Z" finished-at="2022-09-24T23:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Pack6.LoginOrange -->
+      <class name="Pack6.TestTryItYourself">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Pack6.TestTryItYourself@4fe3c938]" name="openBrowser" is-config="true" duration-ms="8064" started-at="2022-09-24T23:15:27Z" finished-at="2022-09-24T23:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="verifytryityourself()[pri:0, instance:Pack6.TestTryItYourself@4fe3c938]" name="verifytryityourself" duration-ms="9460" started-at="2022-09-24T23:15:35Z" finished-at="2022-09-24T23:15:44Z">
+          <exception class="org.apache.poi.EmptyFileException">
+            <message>
+              <![CDATA[The supplied file was empty (zero bytes long)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:193)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:163)
+	at Utils.Utilities.getDataFromExcelSheet(Utilities.java:52)
+	at Pack6.TestTryItYourself.verifytryityourself(TestTryItYourself.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.EmptyFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytryityourself -->
+        <test-method status="PASS" signature="goBackward(org.testng.ITestResult)[pri:0, instance:Pack6.TestTryItYourself@4fe3c938]" name="goBackward" is-config="true" duration-ms="4200" started-at="2022-09-24T23:15:44Z" finished-at="2022-09-24T23:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytryityourself status=FAILURE method=TestTryItYourself.verifytryityourself()[pri:0, instance:Pack6.TestTryItYourself@4fe3c938] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackward -->
+        <test-method status="PASS" signature="clearPOMobjects()[pri:0, instance:Pack6.TestTryItYourself@4fe3c938]" name="clearPOMobjects" is-config="true" duration-ms="0" started-at="2022-09-24T23:15:48Z" finished-at="2022-09-24T23:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobjects -->
+      </class> <!-- Pack6.TestTryItYourself -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

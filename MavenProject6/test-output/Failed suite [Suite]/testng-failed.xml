@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <test name="Test(failed)(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Pack6.TestTryItYourself">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="openBrowser"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="verifytryityourself"/>
+          <include name="goBackward"/>
+          <include name="clearPOMobjects"/>
+        </methods>
+      </class> <!-- Pack6.TestTryItYourself -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+  <test name="Test1(failed)(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Pack6.TestOfOrangeHrm">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="closeBrowser"/>
+          <include name="verifyHrAdminIsDisplayed"/>
+          <include name="clearPOMobjects"/>
+        </methods>
+      </class> <!-- Pack6.TestOfOrangeHrm -->
+      <class name="Pack6.TestTryItYourself">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="openBrowser"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="verifytryityourself"/>
+          <include name="goBackward"/>
+          <include name="clearPOMobjects"/>
+        </methods>
+      </class> <!-- Pack6.TestTryItYourself -->
+    </classes>
+  </test> <!-- Test1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
